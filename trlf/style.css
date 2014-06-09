@@ -1,3 +1,6 @@
+/* @override 
+	http://dev.randalllawfirm.com/wp-content/themes/trlf2/style.css */
+
 /*
 Theme Name: trlf
 Theme URI: http://www.WickwoodMarketing.com/clients/trlf
@@ -444,14 +447,53 @@ li p, .art-postcontent li p, .art-blockcontent li p
 .default-responsive .art-object412944306
 {
   display: none;
-}.art-headline
+}
+
+.art-headline-one
+{
+  display: inline-block;
+  position: absolute;
+  min-width: 50px;
+  top: 19px;
+  left: 50.09%;
+  /* margin-left: -12px !important; */
+  line-height: 100%;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  z-index: 99;
+}
+
+.art-headline-one, 
+.art-headline-one a, 
+.art-headline-one a:link, 
+.art-headline-one a:visited, 
+.art-headline-one a:hover
+{
+font-size: 33px;
+font-family: 'Droid Serif', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+font-weight: normal;
+font-style: normal;
+text-decoration: none;
+font-variant: normal;
+text-align: left;
+text-shadow: 1.4px 1.4px 3px rgba(23, 23, 23, 0.5);
+  padding: 0;
+  margin: 0;
+  color: #14394D !important;
+  white-space: nowrap;
+}
+
+.art-headline
 {
   display: inline-block;
   position: absolute;
   min-width: 50px;
   top: 39px;
-  left: 50.09%;
-  margin-left: -282px !important;
+  left: 50.00%;
+  /* margin-left: -282px !important; */
   line-height: 100%;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
@@ -507,11 +549,29 @@ text-shadow: 1.4px 1.4px 3px rgba(23, 23, 23, 0.5);
 font-size: 16px;
 font-family: 'Droid Serif', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 text-decoration: none;
-text-align: left;
+text-align: center;
 text-shadow: 0px 1px 0px rgba(23, 23, 23, 0.5);
   padding: 0;
   margin: 0;
   color: #153C51 !important;
+}
+
+.art-header-text {
+  margin-top: .5em;
+}
+
+.art-header-attorney-left {
+  float: left;
+  margin-top: .5em;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.art-header-attorney-right {
+  float: right;
+  margin-top: .5em;
+  display: inline-block;
+  font-size: 20px;
 }
 
 .art-logo-497160856
