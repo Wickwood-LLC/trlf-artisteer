@@ -1,4 +1,4 @@
-/* @override 
+/* @override
 	http://dev.randalllawfirm.com/wp-content/themes/trlf2/style.css */
 
 /*
@@ -1777,7 +1777,7 @@ button.art-button
    white-space: nowrap;
    text-align: center;
    color: #1F1F1F;
-   margin: 0 5px 0 0 !important;
+   margin: 0 5px 0 0;
    overflow: visible;
    cursor: pointer;
    text-indent: 0;
@@ -3677,6 +3677,123 @@ DIV[id^="GMPmap"] IMG
 }
 
 /* Begin Additional CSS Styles */
+
+/* Styling for MailChimp Form */
+div.mc_form_inside {
+  position: relative;
+}
+
+div#mc-indicates-required {
+  display: block;
+  float: right;
+  color: red;
+  text-align: right;
+  position: absolute;
+  width: 20%;
+  right: 22%;
+  top: -1.3em;
+}
+
+div.mc_merge_var {
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+label.mc_var_label {
+  float: left;
+  clear: both;
+  margin-top: .5em;
+  margin-bottom: .5em;
+  font-weight: bold;
+  width: 30%;
+}
+
+.mc_input {
+  float: left;
+}
+
+input#mc_mv_EMAIL,
+input#mc_mv_FNAME,
+input#mc_mv_LNAME {
+  width: 60%;
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+
+.mc_input.mc_phone {
+  margin-top: .5em;
+  margin-bottom: .5em;
+  margin-left: .5em;
+}
+
+#mc_mv_MMERGE3-area {
+  margin-left: 0;
+}
+
+input#mc_mv_MMERGE4{
+  width: 70%;
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+
+.mc_interests_header {
+  clear: both;
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#mc_signup_form div.mc_form_inside div.mc_interest {
+  width: 30%;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  clear: both;
+}
+
+div.mergeRow {
+  clear: both;
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+  
+}
+
+label.mc_email_format {
+  margin-top: .5em;
+  margin-bottom: .5em;
+  font-weight: bold;
+  width: 30%;
+  float: left;
+}
+
+.mc_email_options ul.mc_list li {
+  display: inline-block;
+  float: left;
+  margin-top: .5em;
+  margin-bottom: .5em;
+  font-size: 17px;
+    padding: 0;
+}
+
+ul.mc_list {
+  
+}
+
+.mc_email_options ul.mc_list li:before {
+  content:'';
+
+}
+
+input#mc_signup_submit.button.art-button {
+  width: 15em;
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+ }
+
 
 /* End Additional CSS Styles */
 
