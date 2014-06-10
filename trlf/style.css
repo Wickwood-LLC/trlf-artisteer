@@ -3777,10 +3777,6 @@ label.mc_email_format {
     padding: 0;
 }
 
-ul.mc_list {
-  
-}
-
 .mc_email_options ul.mc_list li:before {
   content:'';
 
