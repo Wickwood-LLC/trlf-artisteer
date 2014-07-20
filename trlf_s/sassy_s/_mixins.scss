@@ -13,3 +13,10 @@
         @content;
     }
 }
+
+// Mixins added by Wickwood Marketing
+// Use REMs with a pixel fallback for font sizing
+@mixin font-size($font-size) {
+    font-size: $font-size;
+    font-size: ($font-size / $base-font-size )*1rem;
+}
