@@ -3,11 +3,12 @@
 // yourself. This means that changes that should be small, such as tweaking the
 // coloring or the sizing, can be done in one place, not all over the stylesheet.
 
-$base-font: sans-serif;
-$header-font: $base-font; // you can refer to other variables
+$base-font: Tahoma, Arial, Helvetica, Sans-Serif;
+$base-font-size:17px;
+$header-font: 'Droid Serif', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
 
 // base color scheme
-$body-background: #fff;
+$body-background: #FEFEEC;
 $text-color: #404040;
 $link-color: royalblue;
 $link-visited: purple;
